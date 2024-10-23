@@ -1,4 +1,6 @@
+```
 #Ex.No: 5 Binary Search
+```
 ###DATE: 04/09/2024
 ###REGISTER NUMBER : 212221040032
 ### AIM: 
