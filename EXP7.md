@@ -4,17 +4,17 @@
 ### AIM: 
 For ATM system study its system specifications and report various bugs
 ### Purpose:
-```
+
 This document describes the software requirements and specification (SRS) for an automated
 teller machine (ATM) network. The document is intended for the customer and the developer
 (designers, testers, maintainers). The reader is assumed to have basic knowledge of banking
 accounts and account services. Knowledge and understanding of Unified Modeling Language
 (UML) diagrams is also required.
-```
+
 
 
 ### Scope:
-```
+
 The software supports a computerized banking network called ‗Bank24„. The network
 enables customers to complete simple bank account services via automated teller machines
 (ATMs) that may be located off premise and that need not be owned and operated by the
@@ -24,11 +24,11 @@ payment), communicates the transaction information to the customer’s bank, and
 cash to the customer. The banks provide their own software for their own computers. The
 ‗Bank24„ software requires appropriate record keeping and security provisions. The
 Software must handle concurrent accesses to the same account correctly.
-```
+
 
 
 ### Intended Audience:
-```
+
 The intended audience of this SRS consists of:
 □ Software designers
 □ Systems engineers
@@ -39,12 +39,12 @@ The actors of the system are:
 1. User
 2. ATM Machine
 3. Bank
-```
+
 
 
 
 ### Product Perspective:
-```
+
 An automated teller machine (ATM) is a computerized telecommunications device that
 provides the customers of a financial institution with access to financial transactions in a
 public space without the need for a human clerk or bank teller. On most modern ATMs, the
@@ -52,24 +52,24 @@ customer is identified by inserting a plastic ATM card with a magnetic stripe or
 smartcard with a chip, that contains a unique card number and some security information,
 such as an expiration date or CVC (CVV). Security is provided by the customer entering a
 personal identification number (PIN).
-```
+
 
 
 
 
 ### Product Functions:
-```
+
 Using an ATM, customers can access their bank accounts in order to make cash withdrawals
 (or credit card cash advances) and check their account balances. The functions of the system are:
           1. Login
           2. Get Balance Information
           3. Withdraw Cash
           4. Transfer Funds
-```
+
 
 
 ### Operative Environments:
-```
+
 The hardware, software and technology used should have following specifications:
 □ Ability to read the ATM card.
 □ Ability to count the currency notes.
@@ -78,12 +78,12 @@ The hardware, software and technology used should have following specifications:
 □ Continuous power supply.
 □ Ability to connect to bank’s network.
 □ Ability to validate user.
-```
+
 
 
 
 ### Design/implementation constraints: 
-```
+
 Login:
 Validate Bank Card
 □ Validate for Card Expiration Date
@@ -114,25 +114,25 @@ Reset login counter to 0 after login is successful.
 Get Balance Information
 Withdraw Cash
 Transfer Funds
-```
+
 
 
 
 ### Assumptions and Dependencies: 
-```
+
 □ Hardware never fails
 □ ATM casing is impenetrable
 □ Limited number of transactions per day (sufficient paper for receipts)
 □ Limited amount of money withdrawn per day (sufficient money)
-```
+
 ## External Interface Requirements
 ### User interfaces
-```
+
 The customer user interface should be intuitive, such that 99.9% of all new ATM users are able to
 complete their banking transactions without any assistance.
-```
+
 ### Hardware interfaces
-```
+
 The hardware should have following specifications:
 □ Ability to read the ATM card
 □ Ability to count the currency notes
@@ -142,21 +142,21 @@ The hardware should have following specifications:
 □ Ability to connect to bank’s network
 □ Ability to take input from user
 □ Ability to validate user
-```
+
 
 
 ### Software interfaces 
-```
+
 The software interfaces are specific to the target banking software systems. At present, two known
 banking systems will participate in the ATM network.
           □ State Bank
           □ Indian Overseas Bank
-```
+
 
 
 
 ### Safety requirements: 
-```
+
 Must be safe kept in physical aspects, say in a cabin
 □ Must be bolted to floor to prevent any kind of theft
 □ Must have an emergency phone outside the cabin
@@ -164,21 +164,21 @@ Must be safe kept in physical aspects, say in a cabin
 □ The cabin door must have an ATM card swipe slot
 □ The cabin door will always be locked, which will open only when user swipes his/her
 ATM card in the slot & is validated as genuine
-```
+
 
 
 
 ### Security requirements: 
-```
+
 □ Users accessibility is censured in all the ways
 □ Users are advised to change their PIN on first use
 □ Users are advised not to tell their PIN to anyone
 □ The maximum number of attempts to enter PIN will be three
-```
+
 
 
 ### Possible Bugs:
-```
+
 1. Successful insertion of ATM card
 2. Unsuccessful operation due to insert card in wrong angle
 3. Unsuccessful operation due to invalid account Ex: other bank card or time expired card
@@ -204,7 +204,7 @@ ATM card in the slot & is validated as genuine
 account type & withdrawal operation
 22. unsuccessful withdrawal operation due to click cancel after insert card, pin number, language,
 account type, withdrawal operation &amount to be withdraw
-```
+
 
 
 
