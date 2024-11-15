@@ -124,11 +124,15 @@ Transfer Funds
 □ ATM casing is impenetrable
 □ Limited number of transactions per day (sufficient paper for receipts)
 □ Limited amount of money withdrawn per day (sufficient money)
-### External Interface Requirements
+```
+## External Interface Requirements
 ### User interfaces
+```
 The customer user interface should be intuitive, such that 99.9% of all new ATM users are able to
 complete their banking transactions without any assistance.
+```
 ### Hardware interfaces
+```
 The hardware should have following specifications:
 □ Ability to read the ATM card
 □ Ability to count the currency notes
