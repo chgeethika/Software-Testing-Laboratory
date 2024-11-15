@@ -67,10 +67,9 @@ personal identification number (PIN).
 
 
 ### Product Functions:
-
 Using an ATM, customers can access their bank accounts in order to make cash withdrawals
 (or credit card cash advances) and check their account balances. The functions of the system are:
-
+          
           1. Login
           
           2. Get Balance Information
@@ -207,6 +206,7 @@ The hardware should have following specifications:
 
 The software interfaces are specific to the target banking software systems. At present, two known
 banking systems will participate in the ATM network.
+          
           □ State Bank
           
           □ Indian Overseas Bank
