@@ -1,4 +1,4 @@
-# Ex.No: 8  ATM Applicationn
+# Ex.No: 7  ATM Applicationn
 ### DATE: 04/10/2024                                                                           
 ### REGISTER NUMBER : 212221040032
 ### AIM: 
